@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8442DEE92F412AAD00688FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442DEE82F412AAD00688FCD /* AppDelegate.swift */; };
+		8442DEED2F412AAD00688FCD /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 8442DEEB2F412AAD00688FCD /* Main.html */; };
+		8442DEEF2F412AAD00688FCD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8442DEEE2F412AAD00688FCD /* Icon.png */; };
+		8442DEF12F412AAD00688FCD /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 8442DEF02F412AAD00688FCD /* Style.css */; };
+		8442DEF32F412AAD00688FCD /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 8442DEF22F412AAD00688FCD /* Script.js */; };
+		8442DEF52F412AAD00688FCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442DEF42F412AAD00688FCD /* ViewController.swift */; };
+		8442DEF82F412AAD00688FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8442DEF62F412AAD00688FCD /* Main.storyboard */; };
+		8442DEFA2F412AAE00688FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8442DEF92F412AAE00688FCD /* Assets.xcassets */; };
+		8442DF012F412AAE00688FCD /* Bluesky Skeet Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8442DF002F412AAE00688FCD /* Bluesky Skeet Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8442DF062F412AAE00688FCD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442DF052F412AAE00688FCD /* SafariWebExtensionHandler.swift */; };
+		8442DF152F412AAF00688FCD /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 8442DF122F412AAF00688FCD /* background.js */; };
+		8442DF162F412AAF00688FCD /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 8442DF132F412AAF00688FCD /* icons */; };
+		8442DF172F412AAF00688FCD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 8442DF142F412AAF00688FCD /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8442DF022F412AAE00688FCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8442DEDD2F412AAD00688FCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8442DEFF2F412AAE00688FCD;
+			remoteInfo = "Bluesky Skeet Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8442DF0D2F412AAE00688FCD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8442DF012F412AAE00688FCD /* Bluesky Skeet Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8442DEE52F412AAD00688FCD /* Bluesky Skeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluesky Skeet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8442DEE82F412AAD00688FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8442DEEC2F412AAD00688FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		8442DEEE2F412AAD00688FCD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8442DEF02F412AAD00688FCD /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		8442DEF22F412AAD00688FCD /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		8442DEF42F412AAD00688FCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8442DEF72F412AAD00688FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8442DEF92F412AAE00688FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8442DEFB2F412AAE00688FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8442DF002F412AAE00688FCD /* Bluesky Skeet Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Bluesky Skeet Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8442DF052F412AAE00688FCD /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		8442DF072F412AAE00688FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8442DF122F412AAF00688FCD /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		8442DF132F412AAF00688FCD /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
+		8442DF142F412AAF00688FCD /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8442DEE22F412AAD00688FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8442DEFD2F412AAE00688FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8442DEDC2F412AAD00688FCD = {
+			isa = PBXGroup;
+			children = (
+				8442DEE72F412AAD00688FCD /* Bluesky Skeet */,
+				8442DF042F412AAE00688FCD /* Bluesky Skeet Extension */,
+				8442DEE62F412AAD00688FCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8442DEE62F412AAD00688FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8442DEE52F412AAD00688FCD /* Bluesky Skeet.app */,
+				8442DF002F412AAE00688FCD /* Bluesky Skeet Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8442DEE72F412AAD00688FCD /* Bluesky Skeet */ = {
+			isa = PBXGroup;
+			children = (
+				8442DEE82F412AAD00688FCD /* AppDelegate.swift */,
+				8442DEF42F412AAD00688FCD /* ViewController.swift */,
+				8442DEF62F412AAD00688FCD /* Main.storyboard */,
+				8442DEF92F412AAE00688FCD /* Assets.xcassets */,
+				8442DEFB2F412AAE00688FCD /* Info.plist */,
+				8442DEEA2F412AAD00688FCD /* Resources */,
+			);
+			path = "Bluesky Skeet";
+			sourceTree = "<group>";
+		};
+		8442DEEA2F412AAD00688FCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8442DEEB2F412AAD00688FCD /* Main.html */,
+				8442DEEE2F412AAD00688FCD /* Icon.png */,
+				8442DEF02F412AAD00688FCD /* Style.css */,
+				8442DEF22F412AAD00688FCD /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8442DF042F412AAE00688FCD /* Bluesky Skeet Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8442DF112F412AAF00688FCD /* Resources */,
+				8442DF052F412AAE00688FCD /* SafariWebExtensionHandler.swift */,
+				8442DF072F412AAE00688FCD /* Info.plist */,
+			);
+			path = "Bluesky Skeet Extension";
+			sourceTree = "<group>";
+		};
+		8442DF112F412AAF00688FCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8442DF122F412AAF00688FCD /* background.js */,
+				8442DF132F412AAF00688FCD /* icons */,
+				8442DF142F412AAF00688FCD /* manifest.json */,
+			);
+			name = Resources;
+			path = "Bluesky Skeet Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8442DEE42F412AAD00688FCD /* Bluesky Skeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8442DF0E2F412AAE00688FCD /* Build configuration list for PBXNativeTarget "Bluesky Skeet" */;
+			buildPhases = (
+				8442DEE12F412AAD00688FCD /* Sources */,
+				8442DEE22F412AAD00688FCD /* Frameworks */,
+				8442DEE32F412AAD00688FCD /* Resources */,
+				8442DF0D2F412AAE00688FCD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8442DF032F412AAE00688FCD /* PBXTargetDependency */,
+			);
+			name = "Bluesky Skeet";
+			packageProductDependencies = (
+			);
+			productName = "Bluesky Skeet";
+			productReference = 8442DEE52F412AAD00688FCD /* Bluesky Skeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8442DEFF2F412AAE00688FCD /* Bluesky Skeet Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8442DF0A2F412AAE00688FCD /* Build configuration list for PBXNativeTarget "Bluesky Skeet Extension" */;
+			buildPhases = (
+				8442DEFC2F412AAE00688FCD /* Sources */,
+				8442DEFD2F412AAE00688FCD /* Frameworks */,
+				8442DEFE2F412AAE00688FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bluesky Skeet Extension";
+			packageProductDependencies = (
+			);
+			productName = "Bluesky Skeet Extension";
+			productReference = 8442DF002F412AAE00688FCD /* Bluesky Skeet Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8442DEDD2F412AAD00688FCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					8442DEE42F412AAD00688FCD = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					8442DEFF2F412AAE00688FCD = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 8442DEE02F412AAD00688FCD /* Build configuration list for PBXProject "Bluesky Skeet" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8442DEDC2F412AAD00688FCD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8442DEE62F412AAD00688FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8442DEE42F412AAD00688FCD /* Bluesky Skeet */,
+				8442DEFF2F412AAE00688FCD /* Bluesky Skeet Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8442DEE32F412AAD00688FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8442DEEF2F412AAD00688FCD /* Icon.png in Resources */,
+				8442DEF82F412AAD00688FCD /* Main.storyboard in Resources */,
+				8442DEF32F412AAD00688FCD /* Script.js in Resources */,
+				8442DEED2F412AAD00688FCD /* Main.html in Resources */,
+				8442DEFA2F412AAE00688FCD /* Assets.xcassets in Resources */,
+				8442DEF12F412AAD00688FCD /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8442DEFE2F412AAE00688FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8442DF152F412AAF00688FCD /* background.js in Resources */,
+				8442DF172F412AAF00688FCD /* manifest.json in Resources */,
+				8442DF162F412AAF00688FCD /* icons in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8442DEE12F412AAD00688FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8442DEF52F412AAD00688FCD /* ViewController.swift in Sources */,
+				8442DEE92F412AAD00688FCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8442DEFC2F412AAE00688FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8442DF062F412AAE00688FCD /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8442DF032F412AAE00688FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8442DEFF2F412AAE00688FCD /* Bluesky Skeet Extension */;
+			targetProxy = 8442DF022F412AAE00688FCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8442DEEB2F412AAD00688FCD /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8442DEEC2F412AAD00688FCD /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		8442DEF62F412AAD00688FCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8442DEF72F412AAD00688FCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8442DF082F412AAE00688FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8442DF092F412AAE00688FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8442DF0B2F412AAE00688FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bluesky Skeet Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bluesky Skeet Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "page.harrison.Bluesky-Skeet.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8442DF0C2F412AAE00688FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bluesky Skeet Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bluesky Skeet Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "page.harrison.Bluesky-Skeet.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8442DF0F2F412AAE00688FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bluesky Skeet/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bluesky Skeet";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "page.harrison.Bluesky-Skeet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8442DF102F412AAE00688FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bluesky Skeet/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bluesky Skeet";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "page.harrison.Bluesky-Skeet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8442DEE02F412AAD00688FCD /* Build configuration list for PBXProject "Bluesky Skeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8442DF082F412AAE00688FCD /* Debug */,
+				8442DF092F412AAE00688FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8442DF0A2F412AAE00688FCD /* Build configuration list for PBXNativeTarget "Bluesky Skeet Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8442DF0B2F412AAE00688FCD /* Debug */,
+				8442DF0C2F412AAE00688FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8442DF0E2F412AAE00688FCD /* Build configuration list for PBXNativeTarget "Bluesky Skeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8442DF0F2F412AAE00688FCD /* Debug */,
+				8442DF102F412AAE00688FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8442DEDD2F412AAD00688FCD /* Project object */;
+}
