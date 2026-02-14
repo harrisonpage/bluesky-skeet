@@ -4,8 +4,6 @@ Post to Bluesky from your browser. Supports Safari, Chrome and Firefox.
 
 This extension will not track you: No analytics, no data collection. It just opens the current page URL into Bluesky's compose window.
 
-This extension does not track you, No analytics, no tracking, no data collection, and no stored credentials — just posts to Bluesky.
-
 ![Bluesky Skeet icon](bsky.png)
 
 ## Chrome / Firefox
