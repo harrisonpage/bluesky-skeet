@@ -1,5 +1,4 @@
 import SafariServices
-import os.log
 
 class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
 
@@ -19,8 +18,6 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         } else {
             message = request?.userInfo?["message"]
         }
-
-        os_log(.default, "Received message from browser.runtime.sendNativeMessage: %@ (profile: %@)", String(describing: message), profile?.uuidString ?? "none")
 
         let response = NSExtensionItem()
         if #available(iOS 15.0, macOS 11.0, *) {
