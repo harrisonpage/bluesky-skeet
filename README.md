@@ -1,10 +1,14 @@
 # bluesky-skeet
 
-Post to Bluesky from your browser. Supports Safari, Chrome and Firefox.
+Post links to Bluesky from your browser. Supports Safari, Chrome and Firefox.
 
 This extension will not track you: No analytics, no data collection. It just opens the current page URL into Bluesky's compose window.
 
+The icon will appear greyed out until permissions are granted.
+
 ![Bluesky Skeet icon](bsky.png)
+
+A `Share to Bluesky` menu item is also available from the right-click menu.
 
 ## Chrome / Firefox
 
@@ -25,7 +29,9 @@ xcrun safari-web-extension-converter extension/ \
   --swift --macos-only --copy-resources
 ```
 
-Then open the generated Xcode project, build and run. In Safari, go to Settings > Developer > "Allow unsigned extensions", then enable the extension in Settings > Extensions.
+To enable in Safari: Open the generated Xcode project, build and run. In Safari, go to Settings > Developer > "Allow unsigned extensions", then enable the extension in Settings > Extensions.
+
+Consider the `safari` folder to be read-only and make changes in the `extensions` folder.
 
 ## Assets
 

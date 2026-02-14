@@ -12,8 +12,8 @@ chrome.action.onClicked.addListener((tab) => {
 });
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
-  if (info.menuItemId === "share-to-bluesky" && tab.url) {
-    shareToBluesky(tab.url);
+  if (info.menuItemId === "share-to-bluesky") {
+    shareToBluesky(info.linkUrl || tab.url);
   }
 });
 
@@ -21,6 +21,6 @@ chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "share-to-bluesky",
     title: "Share to Bluesky",
-    contexts: ["page"],
+    contexts: ["page", "link"],
   });
 });
