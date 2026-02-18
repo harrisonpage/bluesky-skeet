@@ -4,7 +4,6 @@
   "description": "Share the current page to Bluesky",
   "version": "1.0.0",
   "permissions": ["activeTab", "contextMenus"],
-  "host_permissions": ["<all_urls>"],
   "action": {
     "default_icon": {
       "16": "icons/icon-16.png",
