@@ -6,7 +6,7 @@ This extension will not track you: No analytics, no data collection. It just ope
 
 The icon will appear greyed out until permissions are granted.
 
-![Bluesky Skeet icon](bsky.png)
+![Post to Bluesky icon](bsky.png)
 
 A `Share to Bluesky` menu item is also available from the right-click menu.
 
@@ -25,7 +25,7 @@ The Safari extension requires an Xcode project wrapper. To generate it from the 
 xcrun safari-web-extension-converter extension/ \
   --bundle-identifier page.harrison.bluesky-skeet \
   --project-location safari \
-  --app-name "Bluesky Skeet" \
+  --app-name "Post to Bluesky" \
   --swift --macos-only --copy-resources
 ```
 

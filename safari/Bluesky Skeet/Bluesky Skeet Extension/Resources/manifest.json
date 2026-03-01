@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Bluesky Skeet",
+  "name": "Post to Bluesky",
   "description": "Share the current page to Bluesky",
   "version": "1.0.0",
   "permissions": ["activeTab", "contextMenus"],
